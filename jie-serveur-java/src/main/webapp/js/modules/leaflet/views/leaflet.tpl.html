@@ -1,0 +1,38 @@
+
+<leaflet 
+	id="map"
+	width="100%" 
+	height="480px" 
+	center="osloCenter" 
+	markers="markers" 
+	paths="europeanPaths"
+	
+></leaflet>
+
+
+
+<li>args: {{args}}</li>
+
+
+<li>Click: Latitude: {{args.model.lat| number: 2}} Longitude: {{args.model.lng | number: 2}}</li></p></p>
+
+<li>Paths argss: {{argss}}</li>
+</p></p></p>
+
+	<div class="panel">
+                <h3>Paths</h3>
+                
+                <div ng-repeat="path in europeanPaths">
+                    <p style="display: inline;">
+                    	color: <input type="color" color="red" ng-model="path.color" /> 
+                    	weight: <input type="number" ng-model="path.weight" />
+                    </p>
+                    <ul>
+                        <li ng-repeat="p in path.latlngs">
+                        	(point {{$index}}) 
+                        	lat: <strong>{{ p.lat | number: 4 }}</strong> 
+                        	lng: <strong>{{ p.lng | number: 4}}</strong>
+                        </li>
+                    </ul>
+                </div>
+      </div>

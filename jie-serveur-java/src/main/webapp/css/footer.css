@@ -1,0 +1,57 @@
+
+
+
+
+a{color:#E68E33;text-decoration:none}
+a:hover{text-decoration:underline}
+h3 a.action{font-size:.7em;text-transform:none}
+#footer{height:222px;margin-top:41px;text-align:left;line-height:20px}
+.min #footer{height:auto;margin-top:0}
+#legals{padding-top:12px;text-align:left;height:44px;background-color:#3f4140}
+#legals p{float:left;margin:0;font-size:11px;line-height:14px;color:#717372;clear:left;margin-bottom:3px}
+#legals .tos{margin-top:2px}
+#legals .tos a{margin:0 5px;font-weight:500;color:#a9abaa}
+#legals .tos a:hover{color:#fff;text-decoration:none}
+.min .legals{font-size:11px}
+.min .legals .tos{float:right}
+.min .legals .tos a{margin:0 5px;font-weight:500;color:#a9abaa}
+.min .legals .tos a:hover{text-decoration:none;color:#fff}
+#features_mobile .main{padding:79px 0 319px}
+.col980{width:980px;margin:0 auto;position:relative}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;font-size:0}
+#legals .tos a:first-child{margin-left:0;color:#fff}
+#legals #mobile_app{float:right;font-size:12px;font-weight:500;color:#a9abaa;line-height:14px;margin-top:2px;padding-left:20px;background:transparent url(../images/bg_iphone_app.png) 0 2px no-repeat}
+#legals #mobile_app:hover{text-decoration:none}
+#legals #mobile_app em{font-weight:normal;color:#717372;font-style:normal}
+#footer .signup{float:left;width:220px;padding:120px 0 0;min-height:60px;background:transparent url(/images/theme/v1/bg/bg_footer_sigle.png) center 10px no-repeat;border-right:1px solid #343635}
+#footer .signup a{width:200px;display:block;text-align:center;font-size:18px;padding:11px 0;font-weight:300;font-family:"museo-slab",Helvetica;background-color:#e68e34;color:#fff;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;box-shadow:0 0 5px #222}
+#footer .signup a:hover{text-decoration:none;background-color:#ef9d4a}
+#footer .links{float:left;margin-left:20px;padding-top:12px;width:460px;min-height:168px;border-right:1px solid #343635}
+#footer h6{display:block;font-size:15px;margin-bottom:15px;color:#939594;font-weight:300}
+#footer .links ul{float:left;width:230px;padding-left:6px}
+#footer .links ul li{margin-bottom:4px}
+#footer .links ul a{color:#7c7e7d;font-size:14px}
+#footer .links ul a:hover{color:#efaf43;text-decoration:none}
+#footer .social{float:left;margin-left:20px;padding-top:12px;min-height:168px}
+#footer .social h6{margin-bottom:8px}
+#footer .social .networks{margin-bottom:20px}
+#footer .social .networks li{float:left;width:60px;height:40px;margin-right:1px}
+#footer .social .networks li:first-child a{-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px}
+#footer .social .networks li:last-child a{-webkit-border-radius:0 3px 3px 0;-moz-border-radius:0 3px 3px 0;border-radius:0 3px 3px 0}
+#footer .social .networks a{display:block;background:#191b1a;text-decoration:none}
+#footer .social .networks a span{display:block;height:40px;text-indent:-10000px;overflow:hidden;background:transparent url(../images/bg_social.png?v=0.1) 18px 8px no-repeat;opacity:.4;filter:alpha(opacity=40)}
+#footer .social .networks a.tw span{background-position:18px -32px}
+#footer .social .networks a.lk span{background-position:18px -72px}
+#footer .social .networks a.gp span{background-position:18px -112px}
+#footer .social .networks a.gh span{background-position:18px -152px}
+#footer .social .networks a.fb:hover{background-color:#3B5998}
+#footer .social .networks a.tw:hover{background-color:#00acee}
+#footer .social .networks a.lk:hover{background-color:#0077b5}
+#footer .social .networks a.gp:hover{background-color:#5F5F5F}
+#footer .social .networks a.gh:hover{background-color:#5F5F5F}
+#footer .social .networks a:hover span{opacity:1;filter:alpha(opacity=100)}
+#footer .social form input{float:left;color:#babcbb;width:210px;height:34px;padding:4px 8px 6px;border:none;background:#3b3d3c;font-family:Helvetica;font-weight:100;font-size:13px;-webkit-border-radius:3px 0 0 3px;-moz-border-radius:3px 0 0 3px;border-radius:3px 0 0 3px}
+#footer .social form a{float:left;width:34px;height:34px;text-indent:-10000px;background:transparent url(images/bg_footer_form_submit.png) 0 0 no-repeat}
+#footer .social form .message{width:208px;clear:left;font-size:11px;background-color:transparent;border:none;margin:5px 0 0;padding:0;line-height:14px;color:#efaf43}
+
+/* Cached Tue 19th Nov, 2013 11:04 */

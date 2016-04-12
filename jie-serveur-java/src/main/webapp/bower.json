@@ -1,0 +1,22 @@
+{
+ "name": "Radio OMCR",
+  "version": "0.0.1",
+ "dependencies": { 
+   "jquery": "~1.9",
+   "underscore":"~1.5",
+   "excanvas": "latest",
+    "bootstrap": "3.1.0",
+    "smalot-bootstrap-datetimepicker":"2.2.0",
+    "select2": "~3.4",
+    "angular": "1.2.12",
+    "angular-route":"1.2.12",
+    "angular-cookies":"1.2.12",
+    
+    "angular-bootstrap":"0.10.0",
+    
+    "angular-ui-select2":"0.0.5",
+    "angular-sanitize":"~1",
+    "angular-datatables":"latest"
+    
+  }
+}

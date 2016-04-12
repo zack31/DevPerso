@@ -1,0 +1,15 @@
+.navbar-bleu{
+    background: -moz-linear-gradient(center top , #00a2dc, #0065bd) repeat scroll 0 0 transparent;
+    ackground: -webkit-gradient(linear, left top, left bottom, from(#00a2dc), to(#0065bd));
+    background: -webkit-linear-gradient(top, #00a2dc, #0065bd);
+    background: -ms-linear-gradient(top, #00a2dc, #0065bd);
+    background: -o-linear-gradient(top, #00a2dc, #0065bd);
+    background: linear-gradient(top, #00a2dc, #0065bd);
+    border-bottom: 4px solid #F89828;
+    border-top: 1px solid #00a2dc;
+    box-shadow: 0 0 2px 2px #AFBAC0;
+    
+}
+.nav.navbar-nav.navbar-right{
+    margin-right:15px;
+}

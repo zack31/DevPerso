@@ -1,0 +1,54 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+
+	<!-- Main Wrapper -->
+    <div id="main-wrapper">
+        <div class="5grid-layout">
+            <div class="row">
+				<!-- Content -->
+                <div id="content" class="12u mobileUI-main-content">
+                    <div id="flash-messages">
+                        <div class="alert alert-success" ng-repeat="message in messages">
+                            <button class="close" data-dismiss="alert" ng-click="resetMessages()" type="button">×</button>
+                            {{message}}
+                        </div>
+                    </div>
+                    <a class="button" href="http://localhost:8080/jie-serveur-java/#">Home</a>
+                    <a class="button" href="http://localhost:8080/jie-serveur-java/#/addPost">Ajouter</a>
+                    <a class="button" href="http://localhost:8080/jie-serveur-java/#/addCategorie">Ajouter Catégorie</a>                    
+                    <article class="box">  
+                        <table  datatable="ng" class="row-border hover">
+                            <thead>
+                                <tr>
+                                    <th>N°</th>
+                                    <th>Titre</th>
+                                    <th>Catégories</th>
+                                    <th>Status</th>
+                                    <th width="80px">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="post in listPosts">
+                                    <td>{{post.idt}}</td>
+                                    <td >{{post.postTitle}}</td>
+                                    <td >{{post.categories}}</td>
+                                    <td >{{post.postStatus}}</td>
+                                    <td>
+                                        <button id="edit-button"  ng-click="modifierPost(post)" data-toggle="modal"
+                                                data-backdrop="false" data-keyboard="false" href="#formModal"
+                                                title="Modifier l'article">
+                                        </button>
+                                        <button id="delete-button"  ng-click="suppPost(post)" data-toggle="modal"
+                                        		data-backdrop="false" data-keyboard="false" href="#formModal"  
+                                        		title="Supprimer l'article bis">
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+				<!-- Content Ends Here -->
+            </div>
+        </div>
+    </div>
+    <!-- Main Wrapper Ends Here -->

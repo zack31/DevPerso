@@ -1,0 +1,9 @@
+{
+    "appName": "collector",
+    "indexPath":"../src/main/webapp/index.html",
+    "outputFile":"GruntFile.js",
+    
+    "srcPrefix":"../src/main/webapp/",
+    "cssExlusions":[]
+}
+ 

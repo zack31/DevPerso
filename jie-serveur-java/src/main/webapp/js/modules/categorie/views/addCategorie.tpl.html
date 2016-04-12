@@ -1,0 +1,62 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+
+
+<script src="lib/editor/elrte.min.js" type="text/javascript"></script>
+<script src="lib/editor/jquery-ui-1.8.13.custom.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/editor/editor-init.js" type="text/javascript"></script>
+<div id="wrapper">
+
+    <!-- Header Wrapper -->
+    <div id="header-wrapper">
+
+        <!-- Header -->
+
+    </div>
+
+    <!-- Main Wrapper -->
+    <div id="main-wrapper">
+        <div class="5grid-layout">
+            <div class="row">
+
+<!-- Content -->
+                <div id="content" class="8u mobileUI-main-content">
+                    <div ng-show="errorMessages.length > 0" class="alert alert-warning">
+                        <button type="button" class="close" ng-click="resetMessages()">&times;</button>
+                        <ul>
+                            <li ng-repeat="msg in errorMessages">
+                                {{msg}}
+                            </li>
+                        </ul>
+                    </div>
+                    <article class="box"> 
+                        <strong><span style="font-size:large">Title : </span></strong>  
+                        <input type="text" ng-model="categorieName" name="categorieName"  style="border:solid 1px; font-weight:bold; color:#7f7f7f;  width: 600px; height:32px"  />
+                    </article>
+                                        
+                </div>
+<!-- Content Ends Here -->
+
+<!-- Sidebar -->
+                <div id="sidebar" class="4u">
+                    <section class="box">
+                        <span><h2>List Of Categories</h2></span>
+							<ul>
+								<li ng-repeat="categorie in categories" class="checkbox-inline">
+                        			{{categorie.name}}                                    
+                        			<td>
+                                        <button id="delete-button"   ng-click="supprimerCategorie(categorie)" data-toggle="modal"
+                                                data-backdrop="false" data-keyboard="false" href="#formModal"
+                                        		title="Supprimer la categorie">
+                                        </button>
+                                    </td><br/><br/>
+                       		 	</li>
+							</ul>
+                        <br/><br/><br/>
+                        <input ng-click="addCategorie()"  class="button" type="submit" id="submit" value="Valider" />
+                    </section>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
